@@ -18,9 +18,17 @@ src/css/               CSS
 
 ### 1. Cài công cụ
 
-- Node.js 20 trở lên (https://nodejs.org). Kiểm tra: `node -v`
-- Git (https://git-scm.com)
-- VS Code (tuỳ chọn)
+| Cần | Để làm gì |
+|---|---|
+| Node.js 20+ (https://nodejs.org) | Chạy `npm install`, `npm start`, `npm run build` |
+| Git (https://git-scm.com) | Kéo code về, đẩy code lên |
+| Claude Code hoặc Claude trên web/app | Nhờ Claude viết và sửa code |
+| Tài khoản Zalo developer | `zmp login`, `zmp deploy` |
+
+Không cần VS Code nếu bạn không tự đọc hay sửa code. Cài thêm chỉ khi muốn xem Claude vừa đổi gì.
+Nếu ngại gõ lệnh Git, dùng GitHub Desktop (https://desktop.github.com). Nó có nút bấm cho pull, commit, push và tự lo đăng nhập.
+
+Kiểm tra đã cài: `node -v` và `git --version`.
 
 ### 2. Cài và đăng nhập Git
 
@@ -33,7 +41,7 @@ git config --global core.autocrlf input   # Windows: dùng "true" nếu hay lỗ
 
 Đăng nhập GitHub. Chọn một trong hai cách:
 
-**Cách A, HTTPS + GitHub CLI (dễ nhất)**
+**Cách A, HTTPS + GitHub CLI (dễ nhất, không cần tự tạo token)**
 ```bash
 # cài gh: https://cli.github.com
 gh auth login      # chọn GitHub.com, HTTPS, login bằng browser
@@ -47,6 +55,12 @@ cat ~/.ssh/id_ed25519.pub        # copy toàn bộ dòng này
 Vào GitHub, Settings, SSH and GPG keys, New SSH key, dán vào.
 Mỗi máy tạo một key riêng, đừng copy key private giữa các máy.
 Kiểm tra: `ssh -T git@github.com`
+
+**Cách C, Personal Access Token** (chỉ khi hai cách trên không dùng được)
+- Ưu tiên fine-grained token: chọn repo `zalo-miniapp`, quyền **Contents: Read and write** và **Metadata: Read-only**.
+- Classic token chỉ cần tick `repo`. Token này đọc và ghi mọi repo của bạn nên đặt hạn 30 đến 90 ngày.
+- Nếu org bật SSO, bấm **Configure SSO** cạnh token rồi **Authorize**, không thì push vẫn lỗi 403.
+- Không dán token vào chat, README hay file trong repo. Mỗi máy một token riêng.
 
 ### 3. Lấy code về
 
@@ -112,3 +126,23 @@ git checkout -b feature/ten-tinh-nang
 git push -u origin feature/ten-tinh-nang
 ```
 Sau đó mở Pull Request trên GitHub và merge.
+
+## Làm việc với Claude
+
+Bạn mô tả việc cần làm, Claude sửa code và push lên branch riêng, rồi mở Pull Request.
+Bạn merge PR trên GitHub, sau đó `git pull` ở máy của mình.
+
+Sau mỗi thay đổi, tự chạy thử trước khi tin:
+```bash
+npm start          # xem app chạy đúng chưa
+npm run build      # build không lỗi
+```
+
+## Khi gặp lỗi
+
+| Lỗi | Nguyên nhân thường gặp | Cách xử lý |
+|---|---|---|
+| Claude push báo `403` | Claude GitHub App bị suspend hoặc chưa cài | GitHub, Settings, Applications, Claude, bấm **Unsuspend** ở Danger zone. Kết nối lại tại https://claude.ai/connect-github. Mở session mới và chọn repo |
+| `git push` từ máy bạn báo `403` | Token thiếu quyền, hoặc chưa authorize SSO | Kiểm tra quyền token, bấm Authorize SSO cho org |
+| `git pull` báo conflict | Hai máy sửa cùng dòng | Sửa tay chỗ `<<<<<<<`, rồi `git add` và `git commit` |
+| `npm start` không chạy | Chưa `npm install` hoặc chưa `zmp login` | Chạy lại hai lệnh đó |
