@@ -4,6 +4,7 @@ Tất cả quy định, giới hạn kỹ thuật và giới hạn giao diện m
 
 - Tra cứu ngày 22/10/2026, từ tài liệu chính thức của Zalo (docs.zaloplatforms.com, miniapp.zaloplatforms.com). Các trang chính thức ghi "cập nhật lần cuối 19/10/2026".
 - Mục nào chỉ dựa trên bài viết của bên thứ ba thì có ghi **(nguồn phụ)**. Mục đó nên kiểm tra lại trên trang quản trị Mini App trước khi dựa vào.
+- Hành vi của Zalo khi app chạy (thu nhỏ, lối tắt, cửa sổ chia sẻ, hộp thoại quyền) nằm ở file [`zalo-hanh-vi-ux.md`](./zalo-hanh-vi-ux.md).
 - Zalo đổi chính sách khá thường xuyên. Trước mỗi lần gửi duyệt, đọc lại mục 8 (checklist) và các trang nguồn ở cuối file.
 
 ## Mục lục
