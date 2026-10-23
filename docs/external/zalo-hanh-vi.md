@@ -1,9 +1,16 @@
+---
+loai: ben-ngoai
+nguoi_chu: duc
+verified: 2026-10-22
+review_by: 2026-12-22
+---
+
 # Zalo Mini App vận hành thế nào, và ảnh hưởng gì tới UI/UX
 
 File này mô tả Home247 sống bên trong Zalo ra sao: mở, chạy nền, thu nhỏ, đóng; vùng nút của Zalo; lối tắt ngoài màn hình chính; các cửa sổ Zalo tự bật lên khi gửi tin, gọi điện, xin quyền. Mỗi hành vi đi kèm hệ quả cho thiết kế.
 
 - Tra cứu ngày 22/10/2026 từ tài liệu API chính thức (docs.zaloplatforms.com) và vài bài hướng dẫn người dùng.
-- Đi cùng file [`rang-buoc-zalo.md`](./rang-buoc-zalo.md). File kia nói về quy định, giới hạn. File này nói về hành vi.
+- Đi cùng file [`zalo-rang-buoc.md`](./zalo-rang-buoc.md). File kia nói về quy định, giới hạn. File này nói về hành vi.
 - Chỗ nào tài liệu không ghi rõ, file ghi **"cần kiểm tra trên máy thật"**. Mục 8 gom các chỗ đó thành danh sách để thử.
 
 ## Mục lục
@@ -275,7 +282,7 @@ Muốn gửi theo số điện thoại thì chỉ còn SMS hoặc gọi điện.
 
 ### 6.3 Hệ quả cho thiết kế
 
-- **Luôn có một màn hay một thẻ giải thích của mình trước hộp thoại.** Người dùng chỉ có một cơ hội. Từ chối rồi thì hộp thoại không hiện lại, nên lần hỏi đầu phải là lần họ hiểu vì sao cần. A2 là màn giải thích kiểu này, nhưng phải dời tới đúng lúc cần số (xem `rang-buoc-zalo.md`, mục 2.6).
+- **Luôn có một màn hay một thẻ giải thích của mình trước hộp thoại.** Người dùng chỉ có một cơ hội. Từ chối rồi thì hộp thoại không hiện lại, nên lần hỏi đầu phải là lần họ hiểu vì sao cần. A2 là màn giải thích kiểu này, nhưng phải dời tới đúng lúc cần số (xem `zalo-rang-buoc.md`, mục 2.6).
 - **Thiết kế trạng thái "đã từ chối".** Ở những màn cần số điện thoại, nếu `getSetting` báo chưa cấp quyền thì hiện thẻ: "Cần số điện thoại để kết nối với chủ nhà" kèm nút **"Mở cài đặt quyền"**. Nút này gọi `openPermissionSetting`. Đừng hiện lại nút "Cho phép" như lần đầu, vì bấm vào cũng không có gì xảy ra.
 - **Không xin 3 quyền cùng lúc lúc mới mở.** Mỗi quyền xin ở đúng việc cần nó.
 - **Quyền chọn ảnh từ máy cũng cần Zalo duyệt** (`openMediaPicker`). Người dùng ngoài nhóm admin, developer sẽ gặp lỗi khi thêm ảnh căn nếu quyền chưa được duyệt. Cần nộp quyền này cùng quyền số điện thoại.
@@ -330,7 +337,7 @@ Hệ quả: CN5-A1 "Thêm ảnh · chọn nhiều ảnh cùng lúc" làm đượ
 ### 7.8 Thông báo đẩy
 
 - App không tự gửi thông báo lên điện thoại như app thường.
-- Thông báo tới người dùng là **tin nhắn từ OA** trong Zalo, kèm điều kiện và có thể tốn phí. Xem `rang-buoc-zalo.md`, mục 2.7.
+- Thông báo tới người dùng là **tin nhắn từ OA** trong Zalo, kèm điều kiện và có thể tốn phí. Xem `zalo-rang-buoc.md`, mục 2.7.
 - Bấm vào tin nhắn đó thì mở app theo link trong tin.
 
 Hệ quả: trong MVP, việc cần xử lý chủ yếu hiện trong app, bằng chấm đỏ trên tab và thẻ "Yêu cầu đặt phòng · 2" ở đầu Lịch (CN1-03). Người dùng chỉ thấy khi mở app. Vì vậy lối tắt ở mục 4 càng quan trọng.

@@ -1,10 +1,17 @@
+---
+loai: ben-ngoai
+nguoi_chu: duc
+verified: 2026-10-22
+review_by: 2026-12-22
+---
+
 # Ràng buộc của Zalo Mini App với Home247
 
 Tất cả quy định, giới hạn kỹ thuật và giới hạn giao diện mà nền tảng Zalo Mini App đặt ra, gom trong một file. Mỗi mục ghi rõ quy định gốc, vì sao nó ảnh hưởng tới Home247 và cần làm gì.
 
 - Tra cứu ngày 22/10/2026, từ tài liệu chính thức của Zalo (docs.zaloplatforms.com, miniapp.zaloplatforms.com). Các trang chính thức ghi "cập nhật lần cuối 19/10/2026".
 - Mục nào chỉ dựa trên bài viết của bên thứ ba thì có ghi **(nguồn phụ)**. Mục đó nên kiểm tra lại trên trang quản trị Mini App trước khi dựa vào.
-- Hành vi của Zalo khi app chạy (thu nhỏ, lối tắt, cửa sổ chia sẻ, hộp thoại quyền) nằm ở file [`zalo-hanh-vi-ux.md`](./zalo-hanh-vi-ux.md).
+- Hành vi của Zalo khi app chạy (thu nhỏ, lối tắt, cửa sổ chia sẻ, hộp thoại quyền) nằm ở file [`zalo-hanh-vi.md`](./zalo-hanh-vi.md).
 - Zalo đổi chính sách khá thường xuyên. Trước mỗi lần gửi duyệt, đọc lại mục 8 (checklist) và các trang nguồn ở cuối file.
 
 ## Mục lục
