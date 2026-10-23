@@ -4,7 +4,7 @@ tieu_de: Script quản lý: cấp mã, sinh BOARD và INDEX, kiểm liên kết
 loai: EN
 trang_thai: moi
 cha: EP1
-truoc: [EN1]
+truoc: []
 nguoi: duc
 rui_ro: tb
 ngay_tao: 2026-10-23

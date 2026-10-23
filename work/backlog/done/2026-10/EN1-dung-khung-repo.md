@@ -2,7 +2,7 @@
 id: EN1
 tieu_de: Dựng khung repo theo đề xuất bản 2
 loai: EN
-trang_thai: cho-nghiem-thu
+trang_thai: xong
 cha: EP1
 nguon: Đề xuất cấu trúc làm việc bản 2 (23/10/2026)
 nguoi: tung
@@ -20,7 +20,7 @@ Repo có CLAUDE.md, cách làm việc CL1 đến CL11, mẫu file, cây yêu c�
 - [x] EN1-TA2 Viết CLAUDE.md, README, .claude/settings.json, .claude/rules/, mẫu PR
 - [x] EN1-TA3 Viết CL1 đến CL7, CL10, CL11 và mẫu file
 - [x] EN1-TA4 Tạo EP1 đến EP6, các item đầu tiên, SP0, QD1 đến QD6, rủi ro
-- [ ] EN1-TA5 Tùng đọc, sửa, tự gộp PR trên GitHub
+- [x] EN1-TA5 Gộp PR #6 vào main (23/10, theo yêu cầu của Tùng)
 
 ## Nhật ký
 - 23/10 · Tùng (qua Claude) · dựng khung trên nhánh EN1-dung-khung-repo, mở PR
