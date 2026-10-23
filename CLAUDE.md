@@ -52,8 +52,9 @@ Repo này hiện chỉ chứa tài liệu và quản lý việc. Code nằm ở 
 - Trạng thái thực hiện Chưa code, Chưa test, Test lỗi nghĩa là chưa xong. Không được báo là xong.
 
 ## Lệnh (chi tiết: docs/process/CL5-lenh.md)
-Người dùng gõ một trong các lệnh sau thì làm đúng quy trình của lệnh đó trong CL5:
-hôm nay · ghi · làm · đổi · lỗi · lập sprint · tinh chỉnh · duyệt · tình hình · họp · review · retro · phát hành
+Lệnh có skill: /hom-nay · /ghi · /lam · /doi · /loi · /duyet · /tinh-hinh. Skill chỉ là lối vào, quy trình nằm ở CL5.
+Lệnh chưa có skill (lập sprint, tinh chỉnh, họp, review, retro, phát hành): người dùng gõ tên lệnh bằng chữ thì làm đúng mục tương ứng trong CL5.
+Quy ước theo thư mục nằm ở .claude/rules/, tự nạp khi mở file ở thư mục đó.
 
 ## Làm một item (lệnh "làm")
 1. Đọc item, item cha, các mục trong thuc_hien, item trong truoc, tài liệu trong mục Đọc.

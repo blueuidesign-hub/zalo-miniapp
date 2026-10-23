@@ -30,7 +30,7 @@ work/                     VIỆC VÀ HỒ SƠ
   sprints/                SP0, SP1...
   risks.md                Rủi ro RR, giả định GD
 handbook/PMGuide/         Giáo trình. Claude Code không đọc
-.claude/                  settings.json (quyền cấm), rules/ (quy ước theo thư mục)
+.claude/                  settings.json (quyền cấm), rules/ (quy ước theo thư mục), skills/ (lệnh /)
 .github/                  Mẫu PR
 ```
 
@@ -47,5 +47,5 @@ handbook/PMGuide/         Giáo trình. Claude Code không đọc
 | work/releases/, test-runs/ | Bản Testing đầu tiên | |
 | work/incidents/, feedback/, improvements.md | Có người dùng thật | |
 | docs/process/CL8 phát hành, CL9 sự cố | Trước bản phát hành đầu | |
-| .claude/skills/, agents/, hooks/ | Sau khi chạy tay một quy trình hai ba lần | EN |
+| .claude/skills/ cho lệnh còn lại, agents/, hooks/ | Sau khi chạy tay một quy trình hai ba lần | EN |
 | src/, server/, tests/ | Theo QD1 | |
