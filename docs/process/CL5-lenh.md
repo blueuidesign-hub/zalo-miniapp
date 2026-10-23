@@ -7,6 +7,8 @@ ban: 1
 ---
 # CL5 · Lệnh ngắn
 
+Lệnh có skill trong .claude/skills/ gọi bằng dấu gạch chéo: /hom-nay (CL5.1), /ghi (CL5.2), /lam (CL5.3), /doi (CL5.4), /loi (CL5.5), /duyet (CL5.8), /tinh-hinh (CL5.9). Skill chỉ trỏ về mục này. Sửa quy trình thì sửa ở đây, không sửa trong skill.
+
 Người dùng gõ lệnh ngắn. AI làm đúng quy trình dưới đây, không hỏi lại những gì đã có trong repo.
 
 ## CL5.1 · hôm nay [tên người]
