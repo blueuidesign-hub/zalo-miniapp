@@ -6,7 +6,8 @@ Bản viết tay tạm thời. Khi có script (EN2) thì file này do script sin
 |---|---|---|
 | product/goal.md | Sản phẩm để làm gì, cho ai | de-xuat |
 | product/glossary.md | Mỗi từ nghĩa là gì | de-xuat |
-| product/requirements/INDEX.md | Sản phẩm phải làm gì, theo nhóm YC | chưa có YC |
+| product/requirements/INDEX.md | Sản phẩm phải làm gì, theo nhóm YC | YC1 de-xuat |
+| product/requirements/YC1-dang-nhap-ket-noi.md | Đăng nhập, vai trò, kết nối chủ nhà và sale | de-xuat |
 | product/rules/INDEX.md | Quy tắc nghiệp vụ dùng chung | chưa có QT |
 | design/screens/INDEX.md | Mã màn nào là màn nào | chưa điền |
 | external/zalo-rang-buoc.md | Zalo cho và cấm gì | tra 22/10/2026 |

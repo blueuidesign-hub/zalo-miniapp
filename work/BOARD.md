@@ -19,7 +19,7 @@ SP0 · 26/10 đến 06/11 · Có khung repo, YC1 đã chốt, biết getPhoneNum
 | Mã | Việc | Người | Trạng thái |
 |---|---|---|---|
 | EN1 | Dựng khung repo | Tùng | cho-nghiem-thu |
-| DC2 | Soạn YC1 | Tùng | moi |
+| DC2 | Soạn YC1 | Tùng | dang-lam |
 | SK1 | Thử getPhoneNumber | Đức | moi |
 | DC1 | Chuyển tài liệu Project | Tùng | moi |
 
