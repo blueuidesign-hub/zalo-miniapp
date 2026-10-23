@@ -13,8 +13,9 @@ Scrum Guide 2020 làm khung. Epic, User Story, Definition of Ready là thực h�
 | Vai | Người | Trách nhiệm |
 |---|---|---|
 | Product Owner | Tùng | Product Goal, thứ tự backlog, chốt yêu cầu, nghiệm thu |
-| Developers | Đức. Tùng ở việc đặc tả, thiết kế | Sprint Backlog, kế hoạch, làm ra Increment đạt điều kiện xong |
-| Scrum Master | Đức [MỞ: QD3] | Giữ nhịp sự kiện, gỡ trở ngại, giữ giới hạn việc dở |
+| Developers | Đức, và Tùng | Sprint Backlog, kế hoạch, làm ra Increment đạt điều kiện xong |
+| Scrum Master | Tùng [MỞ: QD3] | Giữ nhịp sự kiện, gỡ trở ngại, giữ giới hạn việc dở |
+Tùng quản lý dự án và chịu trách nhiệm mọi việc. Đức làm mọi việc trừ quản lý dự án.
 AI là công cụ, không giữ vai nào.
 
 ## CL1.2 · Lịch một sprint (2 tuần, thứ Hai tới thứ Sáu tuần sau)

@@ -2,7 +2,8 @@
 
 Zalo Mini App cho chủ nhà homestay và sale ở Hạ Long. Chủ nhà ghi lịch và giá, chia sẻ cho sale.
 Sale tra căn trống, gửi ảnh và giá cho khách mà không phải gọi điện.
-Hai người làm: Tùng (Product Owner, đặc tả, thiết kế), Đức (Developer, Scrum Master).
+Hai người làm. Tùng quản lý dự án và chịu trách nhiệm mọi việc: Product Owner, đặc tả, thiết kế, và làm được cả việc dev.
+Đức làm mọi việc trừ quản lý dự án: code, test, môi trường, soạn tài liệu khi được giao.
 Repo này hiện chỉ chứa tài liệu và quản lý việc. Code nằm ở đâu: chờ QD1.
 
 ## Bản đồ repo (chi tiết: docs/process/CL11-ban-do-repo.md)

@@ -2,16 +2,32 @@
 id: SP0
 bat_dau: 2026-10-26
 ket_thuc: 2026-11-06
-sprint_goal: Có khung repo, YC1 đến YC4 đã chốt, và biết getPhoneNumber chạy thế nào trên máy thật
+sprint_goal: App trống mở được trên điện thoại của cả hai người, YC1 đến YC4 đã chốt, các quyết định nền đã chốt
 suc_chua: {tung: , duc: }
 ---
 Sprint 0 là sprint dựng khung, không có Increment phần mềm.
 
 ## Phạm vi
-EN1 (xong 23/10), DC2, SK1, DC4, DC5, DC6, DC12, DC1. Còn sức thì DC7.
+| Mã | Việc | Người |
+|---|---|---|
+| EN1 | Dựng khung repo (xong 23/10) | Tùng |
+| EN3 | Tạo Mini App, cấp quyền | Tùng |
+| SK4 | Chạy app trống trên điện thoại | Đức |
+| DC2 | Soạn YC1 | Tùng |
+| DC16 | Chốt quyết định nền | Tùng |
+| SK1 | Thử getPhoneNumber | Đức |
+| DC4, DC5, DC6 | Soạn YC2 đến YC4 | Tùng |
+| SK5 | Chọn backend | Đức |
+| DC12 | Bảng đăng ký màn | Tùng |
+Còn sức: EN6, DC1.
 
-## Quyết định cần chốt trong sprint
-QD1 đến QD6, và các QD phát sinh khi soạn YC.
+## Lịch sự kiện (Tùng tổ chức, theo CL1.2)
+| Sự kiện | Ngày |
+|---|---|
+| Sprint Planning | Thứ Hai 26/10 |
+| Daily Scrum | Mỗi ngày, mỗi người ghi 2 dòng |
+| Tinh chỉnh backlog | Thứ Tư 04/11 |
+| Sprint Review, Retrospective | Thứ Sáu 06/11 |
 
 ## Sprint Review
 ## Retrospective

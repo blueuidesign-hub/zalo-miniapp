@@ -4,6 +4,7 @@ tieu_de: Thử Mini App trên Zalo máy tính
 loai: SK
 trang_thai: moi
 cha: EP1
+truoc: [SK4]
 nguoi: duc
 rui_ro: tb
 ngay_tao: 2026-10-23

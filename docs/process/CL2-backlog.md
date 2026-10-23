@@ -12,7 +12,7 @@ ban: 1
 |---|---|---|---|
 | 1 | Epic | EP | Mục tiêu lớn nhiều sprint, ứng với một mốc |
 | 2 | User Story | US | Giá trị người dùng thấy được, xong trong một sprint |
-| 2 | Enabler | EN | Việc kỹ thuật: hạ tầng, CI, script, nợ kỹ thuật |
+| 2 | Enabler | EN | Việc làm nền, người dùng không thấy: hạ tầng, CI, script, môi trường, tài khoản, nợ kỹ thuật, chuẩn bị người dùng thử |
 | 2 | Spike | SK | Tìm sự thật bằng thử hoặc tra, có giới hạn thời gian |
 | 2 | Doc Task | DC | Một thay đổi kéo theo phải xem lại hay sửa tài liệu khác |
 | 2 | Bug | BG | Sản phẩm làm khác yêu cầu |

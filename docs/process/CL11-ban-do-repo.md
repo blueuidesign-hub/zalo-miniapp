@@ -38,7 +38,8 @@ handbook/PMGuide/         Giáo trình. Claude Code không đọc
 | Thư mục, file | Tạo khi | Item |
 |---|---|---|
 | docs/product/system-behaviors.md | Có hành vi hệ thống đầu tiên được chốt | DC |
-| docs/architecture/ | Chốt backend (QD về backend) | EN |
+| docs/dev/chay-va-test.md | Đã tạo khung, SK4 điền | SK4 |
+| docs/architecture/ | Chốt backend (QD về backend) | SK5 |
 | docs/security/permissions.md | Bắt đầu EP2 | DC |
 | docs/testing/ | Có test đầu tiên | EN |
 | docs/design/principles.md, flows.md | Chuyển từ bản mô tả MVP | DC1 |

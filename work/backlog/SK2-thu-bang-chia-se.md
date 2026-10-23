@@ -4,6 +4,7 @@ tieu_de: Thử bảng chia sẻ của Zalo
 loai: SK
 trang_thai: moi
 cha: EP1
+truoc: [SK4]
 nguoi: duc
 rui_ro: tb
 ngay_tao: 2026-10-23
