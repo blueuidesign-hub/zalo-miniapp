@@ -4,7 +4,7 @@ tieu_de: Chuyển tài liệu trong Project Homestay vào repo
 loai: DC
 trang_thai: moi
 cha: EP1
-truoc: [EN1]
+truoc: []
 nguon: Đề xuất bản 2 mục 14 của bản 1
 nguoi: tung
 rui_ro: thap

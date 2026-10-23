@@ -1,6 +1,6 @@
 # Bảng đăng ký màn hình
 
-Một mã chỉ chỉ một màn. Màn sửa trên canvas chỉ có hiệu lực khi được ghi bản mới vào bảng này (CL6.5). Phiên Design điền bảng khi soạn từng file YC (DC2, DC3).
+Một mã chỉ chỉ một màn. Màn sửa trên canvas chỉ có hiệu lực khi được ghi bản mới vào bảng này (CL6.5). Phiên Design điền bảng khi soạn từng file YC (DC2, DC4 đến DC11).
 
 | Mã | Tên | Artboard | Thuộc YC | Bản | Ngày duyệt |
 |---|---|---|---|---|---|
