@@ -1,0 +1,16 @@
+{
+  "app": {
+    "title": "My Mini App",
+    "headerTitle": "My Mini App",
+    "headerColor": "#1843EF",
+    "textColor": "black",
+    "statusBar": "normal",
+    "leftButton": "back"
+  },
+  "listCSS": [],
+  "listSyncJS": [],
+  "listAsyncJS": [],
+  "debug": {
+    "enableScreenshot": false
+  }
+}
