@@ -1,16 +1,16 @@
 # Cây yêu cầu
 
-Mỗi file là một YC cấp 1. File do phiên Design soạn bằng lệnh docs/process/templates/lenh-phien-design.md, theo khuôn docs/process/templates/yc.md, Claude Code đưa vào repo, Tùng chốt. **Không tự viết yêu cầu khi chưa có file từ phiên Design.**
+Mỗi file là một YC cấp 1. File do phiên Design soạn bằng lệnh docs/process/templates/lenh-phien-design.md, theo docs/process/templates/yc.md, Claude Code đưa vào repo, Tùng chốt. **Không tự viết yêu cầu khi chưa có file từ phiên Design.**
 
 | Mã | Nhóm | File | Trạng thái | Item |
 |---|---|---|---|---|
-| YC1 | Đăng nhập, vai trò, kết nối chủ nhà và sale | chưa có | | DC2 |
-| YC2 | Lịch của chủ nhà | chưa có | | DC4 |
-| YC3 | Căn và giá | chưa có | | DC5 |
-| YC4 | Booking | chưa có | | DC6 |
-| YC5 | Tìm phòng và gửi khách | chưa có | | DC7 |
-| YC6 | Nguồn phòng và căn tự nhập | chưa có | | DC8 |
-| YC7 | Thống kê | chưa có | | DC9 |
-| YC8 | Đội nhóm, cộng tác viên | chưa có | | DC10 |
-| YC9 | Quản trị và dữ liệu | chưa có | | DC11 |
+| YC1 | Đăng nhập, vai trò, kết nối chủ nhà và sale | [YC1-dang-nhap-ket-noi.md](YC1-dang-nhap-ket-noi.md) | de-xuat | DC2 |
+| YC2 | Lịch của chủ nhà | [YC2-lich-chu-nha.md](YC2-lich-chu-nha.md) | de-xuat | DC4 |
+| YC3 | Căn và giá | [YC3-can-va-gia.md](YC3-can-va-gia.md) | de-xuat | DC5 |
+| YC4 | Booking | [YC4-booking.md](YC4-booking.md) | de-xuat | DC6 |
+| YC5 | Tìm phòng và gửi khách | [YC5-tim-phong-gui-khach.md](YC5-tim-phong-gui-khach.md) | de-xuat | DC7 |
+| YC6 | Nguồn phòng và căn tự nhập | [YC6-nguon-phong-can-tu-nhap.md](YC6-nguon-phong-can-tu-nhap.md) | de-xuat | DC8 |
+| YC7 | Thống kê | [YC7-thong-ke.md](YC7-thong-ke.md) | de-xuat | DC9 |
+| YC8 | Đội nhóm, cộng tác viên | [YC8-doi-nhom.md](YC8-doi-nhom.md) | de-xuat | DC10 |
+| YC9 | Quản trị và dữ liệu | [YC9-quan-tri-du-lieu.md](YC9-quan-tri-du-lieu.md) | de-xuat | DC11 |
 Danh sách nhóm là đề xuất [MỞ: Tùng chốt khi duyệt EN1].
